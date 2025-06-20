@@ -22,7 +22,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     clean: true,
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "docs")
   },
   plugins: [
     new HtmlWebpackPlugin({
