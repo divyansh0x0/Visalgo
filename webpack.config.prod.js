@@ -8,8 +8,10 @@ module.exports = merge(common, {
         new CopyPlugin({
             patterns: [
                 {
-                    from: "public", to: ".", globOptions: {
-                        ignore: ["**/index.html"]
+                    from: 'public',
+                    to: '.',
+                    globOptions: {
+                        ignore: ['**/index.html'] // HtmlWebpackPlugin handles this
                     }
                 }
             ]
